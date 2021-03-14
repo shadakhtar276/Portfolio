@@ -1,0 +1,97 @@
+@media screen and (max-width: 1300px){
+    .navbar{
+        
+        transition: all 0.7s ease-out;
+        height: 255px;
+    }
+    .nav-list{
+        flex-direction: column;
+    align-items: center;
+    /* transition: all 0.7s ease-out; */
+    padding: 42px 0px;
+    
+    }
+    .nav-link{
+        line-height: 2.6;
+    }
+    .burgur{
+        display: block;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    
+    #mydiv{
+        display: block;
+    }
+    
+    .introduction {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-intro{
+        width: 100%;
+    }
+    .left-intro{
+        width: 100%;
+        /* height: auto; */
+    }
+    .intro-img img{
+        width: 100vw;
+    }
+    .about{
+        height: auto;
+        text-align: justify;
+        padding: 1em 1em 1em 2em;
+    }
+
+    .education{
+      
+        flex-direction: column;
+        /* height: auto; */
+
+        
+    }
+    .education-left , .education-right{
+        height: auto;
+        width: 100%;
+        /* text-align: justify; */
+        padding: 1em 1em 1em 2em;
+    }
+    .skill-body{
+        height: auto;
+    }
+    .skill{
+        padding: 1em 1em 1em 2em;
+        width: 75%;
+
+    }
+    .my-work{
+        padding: 1em 1em 1em 2em;
+    }
+    
+}
+
+/* media quary for left intro heading */
+@media screen and (max-width: 700px){
+    .p1, .p2{
+        font-size: 1rem;
+    }
+    .intro-heading h1{
+        font-size: 3rem;
+    }
+    .intro-heading{
+        bottom: 30%;
+    }
+    .intro-img img{
+        /* height: auto; */
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+}
