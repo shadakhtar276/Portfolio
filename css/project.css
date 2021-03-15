@@ -25,12 +25,13 @@ body{
 .portfolio-item-individual{
     /* background: green; */
     margin-bottom: 1em;
+   /* text-align: justify; */
    
 }
 .portfolio-item-individual img{
     height: 100%;
     width: 100%;
-    padding: 2em 4em 2em 3em;
+    padding: 1em 0em 1em 0em;
    
     
     
